@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+}
+svg {
+  bottom: 0;
+  height: 100vmin;
+  left: calc(50% - 50vmin);
+  position: absolute;
+  width: 100vmin;
+  -moz-user-select: none;
+  user-select: none;
+}
+path {
+  -moz-user-select: none;
+  user-select: none;
+}
+.option__padding {
+  fill: white;
+  opacity: 0;
+}
+.icon,
+.text {
+  stroke-width: 0.4;
+  transition: transform 400ms 100ms, stroke 400ms, fill 400ms;
+}
+.icon1 {
+  stroke: #8c8b9c;
+  transform: translateY(0.5px);
+}
+.icon1__document {
+  fill: white;
+}
+.icon1__document-image {
+  fill: #8c8b9c;
+  stroke: none;
+  transition: fill 400ms;
+}
+.text1 {
+  fill: #8c8b9c;
+  transform: translateY(-1px);
+}
+.icon2 {
+  stroke: #8c8b9c;
+  transform: translateY(0.5px);
+}
+.icon2__pen {
+  fill: white;
+}
+.icon2__pen-edge-sharpened {
+  fill: none;
+}
+.text2 {
+  fill: #8c8b9c;
+  transform: translateY(-1px);
+}
+.icon3 {
+  stroke: #8c8b9c;
+  transform: translateY(0.5px);
+}
+.icon3__bell-inner {
+  fill: #8c8b9c;
+  stroke-width: 0.4;
+  transition: fill 400ms;
+}
+.icon3__bell-pendulum {
+  fill: white;
+  stroke-width: 0;
+}
+.icon3__bell-top {
+  fill: none;
+  stroke-width: 0.4;
+}
+.icon3__bell-outer {
+  fill: none;
+  stroke-width: 0.4;
+}
+.text3 {
+  fill: #8c8b9c;
+  transform: translateY(-1px);
+}
+.group1 .icon1 {
+  stroke: #b22;
+  transform: translateY(0);
+}
+.group1 .icon1 .icon1__document-image {
+  fill: #b22;
+}
+.group1 .text1 {
+  fill: #b22;
+  transform: translateY(0);
+}
+.group2 .icon2 {
+  stroke: #b22;
+  transform: translateY(0);
+}
+.group2 .text2 {
+  fill: #b22;
+  transform: translateY(0);
+}
+.group2 .connector12 {
+  stroke-dashoffset: 0px;
+}
+.group3 .icon3 {
+  stroke: #b22;
+  transform: translateY(0);
+}
+.group3 .icon3__bell-inner {
+  fill: #b22;
+}
+.group3 .text3 {
+  fill: #b22;
+  transform: translateY(0);
+}
+.group3 .connector23 {
+  stroke-dashoffset: 0px;
+}
+.group3 .connector13 {
+  stroke-dashoffset: 0px;
+}
+.connector {
+  fill: none;
+  stroke: #b22;
+  stroke-width: 0.5;
+  transition: stroke-dashoffset 400ms;
+}
+.connector12,
+.connector23 {
+  stroke-dasharray: 27 75.94;
+  stroke-dashoffset: -62.5px;
+}
+.connector13 {
+  stroke-dasharray: 27 125.37;
+  stroke-dashoffset: -98.5px;
+}
+.connector23 {
+  visibility: hidden;
+}
+.connector13 {
+  visibility: hidden;
+}
+.bgGrey {
+  fill: #eef1f4;
+}
+.bgWhite {
+  fill: white;
+}

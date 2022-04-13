@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Bootstrap Dropdown, with a twist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="drop/normalize.min.css">
+<link rel='stylesheet' href="drop/bootstrap.min.css">
+<link rel='stylesheet' href="drop/animate.min.css">
+<link rel="stylesheet" href="drop/style.css">
+ <script src="drop/jquery.min.js"></script>
+ <script src="drop/jquery.js"></script>
+<script src="drop/bootstrap.min.js"></script>
+<script  src="drop/script.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main class="container">
+	
+	<section class="row">
+	
+		<div class="col-md-12 page-header">
+			
+			<h3> <strong>NAVIGATE ANYWHERE</h3>
+			<p>Type in the search Below to find a place</P>
+		</div>
+		
+	</section>
+	
+	<section class="row">
+		
+		
+
+		<!-- Pops out to center -->
+		<div class="col-md-4">
+			
+			<div class="content-window">
+				
+				<div class="window-img">
+				
+				<div class="stay">
+    <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose you Destination here 
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+	
+    <input class="form-control" id="myInput" type="text" placeholder="Search here..">
+    <li><a  data-toggle="modal" data-target="#mechengine">Mechanical Engineering </a></li>
+	<li><a  data-toggle="modal" data-target="#chemenginethe">Chem-Eng Theater </a></li>
+	<li><a  data-toggle="modal" data-target="#chemengine">Chemical Engineering </a></li>
+	<li><a  data-toggle="modal" data-target="#chappel">Kaduna Polytechnic Chappel </a></li>
+	<li><a  data-toggle="modal" data-target="#civil_eng">Civil Engineering </a></li>
+	<li><a  data-toggle="modal" data-target="#ceosta">COE student affairs </a></li>
+	<li><a  data-toggle="modal" data-target="#compeng">Computer engineering</a></li>
+	<li><a  data-toggle="modal" data-target="#comsci">Computer Science </a></li>
+	<li><a  data-toggle="modal" data-target="#covsqu">Chemical Engineering </a></li>	
+	<li><a  data-toggle="modal" data-target="#edutech">Educational Technology </a></li>
+	<li><a  data-toggle="modal" data-target="#elearn">E-learning/Odefel</a></li>
+	<li><a  data-toggle="modal" data-target="#fashion">Department of fashion and design </a></li>
+	<li><a  data-toggle="modal" data-target="#food">Food Technology </a></li>
+	<li><a  data-toggle="modal" data-target="#medic">Medical Center </a></li>
+	<li><a  data-toggle="modal" data-target="#ict">ICT Center </a></li>
+	<li><a  data-toggle="modal" data-target="#atm">SCHOOL ATM </a></li>
+	<li><a  data-toggle="modal" data-target="#enterp">Enterprenureship Center </a></li>
+	<li><a  data-toggle="modal" data-target="#bank">Microfinance Bank </a></li>
+	<li><a  data-toggle="modal" data-target="#masjid">KPT Central Mosque </a></li>
+	<li><a  data-toggle="modal" data-target="#minpet">Mineral and Petroleun resources Eng... </a></li>
+    
+	
+
+      
+    </ul>
+  </div>
+</div>
+<div class="modal fade" id="mechengine" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/mechnical.png" alt="..." class="responsive">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC DEPARTMENT OF MECHNICAL ENGINEERING</h5>
+    <p class="card-text"> Another wonderful Department </p>
+    <a href="https://www.google.com/maps/place/GCF7%2B398+Mechanical+Engineerig+Department,+44+800282,+Kaduna/@10.5226717,7.4134624,16z/data=!4m5!1m2!2m1!1skadpoly+mechanical+engineering!3m1!1s0x104d3586236b9883:0x13e86fd57cfacd1a" class="btn btn-primary">Locate Online</a>
+    <a href="oflne_civil.html" class="btn btn-primary"> Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+<div class="modal fade" id="chemengine" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+   <img src="imgs/chemical_eng.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC DEPARTMENT OF CHEMICAL ENGINEERING</h5>
+    <p class="card-text">Chemical engineering more than any other.<br>We chemical engineers contribute in critical ways to the economic strength, security, and well being of the nation.</p>
+    <a href="https://www.google.com/maps/place/Department+of+Chemical+Engineering+(E-Learning+Facility)/@10.5259163,7.4125884,15z/data=!4m12!1m6!3m5!1s0x104d353ffdd3aa4b:0xe3226f54707d638b!2sDepartment+of+Chemical+Engineering+(E-Learning+Facility)!8m2!3d10.5259419!4d7.4124969!3m4!1s0x104d353ffdd3aa4b:0xe3226f54707d638b!8m2!3d10.5259419!4d7.4124969
+" class="btn btn-primary">Locate Online</a>
+ <a href="Offline/chamoff.html" class="btn btn-primary">Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+<div class="modal fade" id="chemenginethe" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/chemical_th.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC CHEMICAL ENGINEERING THEATER HALL </h5>
+    <p class="card-text">hhhhhhhhhhhh</p>
+    <a href="https://www.google.com/maps/place/Department+of+Chemical+Engineering+(E-Learning+Facility)/@10.5256912,7.4118109,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMbvhwM_e9Ol5a7bPV31di3Flw1z5yeSxgXaR8l!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMbvhwM_e9Ol5a7bPV31di3Flw1z5yeSxgXaR8l%3Dw224-h398-k-no!7i1080!8i1920!4m14!1m6!3m5!1s0x104d353ffdd3aa4b:0xe3226f54707d638b!2sDepartment+of+Chemical+Engineering+(E-Learning+Facility)!8m2!3d10.5259419!4d7.4124969!3m6!1s0x104d353ffdd3aa4b:0xe3226f54707d638b!8m2!3d10.5259419!4d7.4124969!14m1!1BCgIgARICGAI" class="btn btn-primary">Locate Online</a>
+    <a href="oflne_civil" class="btn btn-primary"> Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+<div class="modal fade" id="chappel" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/chapel.PNG" class="responsive" alt="...">
+  <div class="card-body">
+    <h5  class="card-title">KADUNA POLYTECHNIC CHAPEL </h5>
+    <p class="card-text">Living Faith Church Worldwide (also known as Winners Chapel) is an Evangelical charismatic Christian denomination and a megachurch.
+    </p>
+    <a href="https://goo.gl/maps/rTGfsfedBQSbew4ZA" class="btn btn-primary">Locate Online</a>
+    <a href="Offline/chapeloff.html" class="btn btn-primary">Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+<div class="modal fade" id="civil_eng" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/civil_eng.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC CIVIL ENGINEERING DEPARTMENT</h5>
+    <p class="card-text">Come for Experience, Precisoin, Experience.<br>Someonne who does precision guesswork base on unreliable data, provided by those of qustionable knowledge</p>
+    <a href="https://www.google.com/maps/place/Civil+Engineering+Department/@10.528915,7.4138775,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPSe_KyJ9ttxTGELcemBAUfoWin3qZJORbSxDKI!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPSe_KyJ9ttxTGELcemBAUfoWin3qZJORbSxDKI%3Dw203-h101-k-no!7i4160!8i2080!4m5!3m4!1s0x104d35b095abeef7:0x1d2ded6f8affa3f3!8m2!3d10.5289812!4d7.413879" class="btn btn-primary">Locate Online</a>
+    <a href="offline/civilegoff.html" class="btn btn-primary"> Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="ceosta" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/engi_sa.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC COE STUDENT AFFAIRS</h5>
+    <p class="card-text">hhhhhhhhhhhh</p>
+    <a href="https://www.google.com/maps/place/College+of+engineering+department,+44+800282,+44+800282,+Kaduna/@10.5268934,7.4118669,17z/data=!4m2!3m1!1s0x104d35bbfae4f977:0x1d7a0ea8b1a96552" class="btn btn-primary">Locate Online</a>
+    <a href="Offline/coesaoff.html" class="btn btn-primary"> Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="compeng" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/comp_eng.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC COMPUTER ENGINEERING DEPARTMENT</h5>
+    <p class="card-text">hhhhhhhhhhhh</p>
+    <a href="" class="btn btn-primary">Locate Online</a>
+    <a href="oflne_civil" class="btn btn-primary"> Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="comsci" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/com.PNG" class="responsive" alt="...">
+  <div class="card-body">
+    <h5  class="card-title">COMPUTER SCIENCE</h5>
+    <p class="card-text">Computer Science is the study of computers and computational systems. 
+      Computer scientists design and analyze algorithms to solve programs and study the performance of computer hardware and software.
+    </p>
+    <a href="https://goo.gl/maps/RZzgbUs6LC4uwtvC9" class="btn btn-primary">Locate Online</a>
+    <a href="Offline/comscioff.html" class="btn btn-primary">Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="covsqu" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/cmvtnal.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC CONVEGATIONAL SQUARE</h5>
+    <p class="card-text">hhhhhhhhhhhh</p>
+    <a href="" class="btn btn-primary">Locate Online</a>
+    <a href="offline/convgrdoff.html" class="btn btn-primary"> Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade" id="edutech" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/edu_tec.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC EDUCATION TECH DEPARTMENT</h5>
+    <p class="card-text">hhhhhhhhhhhh</p>
+    <a href="https://www.google.com/maps/place/Department+of+Agric+Tech.+Kadpoly/@10.5239349,7.4144923,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMiOShDrWDK4Pi845L8SCqNIKD0GAclNbbLV-0X!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMiOShDrWDK4Pi845L8SCqNIKD0GAclNbbLV-0X%3Dw203-h114-k-no!7i1920!8i1080!4m9!1m2!2m1!1skadpoly+education+tech+department!3m5!1s0x104d35422df2fc47:0x756b7dfb463d2a8d!8m2!3d10.5241546!4d7.4144673!15sCiFrYWRwb2x5IGVkdWNhdGlvbiB0ZWNoIGRlcGFydG1lbnSSAQZzY2hvb2w" class="btn btn-primary">Locate Online</a>
+    <a href="Offline/edutechoff.html" class="btn btn-primary"> Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade" id="elearn" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/odfel.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC OPEN, DISTANCE & FLEXIBLE E-LEARNING (ODFEL)</h5>
+    <p class="card-text">hhhhhhh</p>
+    <a href="https://www.google.com/maps/place/Kadpoly+open+distance+and+flexible+Learning+Centre,+44+800282,+44+800282,+Kaduna/@10.5233712,7.4164977,17z/data=!4m5!1m2!2m1!1skadpoly+open+distance!3m1!1s0x104d35724a781653:0x6f0781b35c82e553" class="btn btn-primary">Locate Online</a>
+    <a href="Offline/odfeloff.html" class="btn btn-primary"> Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="food" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/food_tech.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC DEPARTMENT OF FOOD TECHNOLOGY</h5>
+    <p class="card-text">Heat the Food to the right degree,to make it healthy and germ free</p>
+    <a href="https://www.google.com/maps/place/Kadpoly+department+of+nutrition+and+dietetics/@10.5233191,7.4128891,17z/data=!4m12!1m6!3m5!1s0x104d3504110560d1:0x6ee6b2f3e5953144!2sKadpoly+department+of+nutrition+and+dietetics!8m2!3d10.5235202!4d7.4131837!3m4!1s0x104d3504110560d1:0x6ee6b2f3e5953144!8m2!3d10.5235202!4d7.4131837" class="btn btn-primary">Locate Online</a>
+    <a href="offline/foodtechoff.html" class="btn btn-primary"> Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="fashion" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/fashion_design.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC DEPARTMENT OF FASHION AND DESIGN </h5>
+    <p class="card-text"> we also have an amaizing boutique.</p>
+    <a href="https://www.google.com/maps/place/Kadpoly+department+of+fashion+design+and+clothing+technology/@10.5217218,7.4151951,15z/data=!4m12!1m6!3m5!1s0x104d35b6f6fdd6eb:0x7e520922b3cd4aa!2sKadpoly+department+of+fashion+design+and+clothing+technology!8m2!3d10.5220269!4d7.4153128!3m4!1s0x104d35b6f6fdd6eb:0x7e520922b3cd4aa!8m2!3d10.5220269!4d7.4153128" class="btn btn-primary">Locate Online </a>
+    <a href="Offline/fashoff.html" class="btn btn-primary">Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="medic" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/hospital.png" class="responsive" alt="...">
+  <div class="card-body">
+    <h5  class="card-title">KADUNA POLYTECHNIC MEDICAL CENTER</h5>
+    <p class="card-text">Shehu Mohammed Kangiwa Medical Centre, is a Hospitals - Public healthcare organisation in Kaduna Polytechnic, Kaduna State Nigeria.
+    </p>
+    <a href="https://goo.gl/maps/4vsuKa5QqkyCERYe9" class="btn btn-primary">Locate Online</a>
+    <a href="offline/hspitaloff.html" class="btn btn-primary">Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="ict" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/ict.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC ICT CENTER</h5>
+    <p class="card-text">the center that is committed to people, committed to the future .</p>
+    <a href="https://www.google.com/maps/place/Kadpoly+ICT+Center/@10.5257159,7.4132536,15z/data=!4m12!1m6!3m5!1s0x104d35796dacae1b:0x818585734839ca51!2sKadpoly+ICT+Center!8m2!3d10.5257159!4d7.4132536!3m4!1s0x104d35796dacae1b:0x818585734839ca51!8m2!3d10.5257159!4d7.4132536" class="btn btn-primary">Locate Online</a>
+ <a href="Offline/comScience.html" class="btn btn-primary">Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="atm" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/ATM.png" class="responsive" alt="...">
+  <div class="card-body">
+    <h5  class="card-title">KADUNA POLYTECHNIC UNION BANK ATM </h5>
+    <p class="card-text">Beyond withdrawing cash, our ATMs spread across Nigeria allow you conveniently carry out funds
+    </p>
+    <a  href="#" class="btn btn-primary">Locate Online</a>
+    <a href="#" class="btn btn-primary">Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="enterp" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="enterpren.png" class="responsive" alt="...">
+  <div class="card-body">
+    <h5  class="card-title">KADPOLY ENTERPRENEURSHIP CENTER </h5>
+    <p class="card-text">The Entrepreneurship Center offers coaching for small businesses and startups including business planning, financial packaging, and more. 
+    </p>
+    <a href="https://goo.gl/maps/ZHLtfTnzjWRYrBcJ9" class="btn btn-primary">Locate Online</a>
+    <a href="#" class="btn btn-primary">Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="masjid" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="masjid.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC CENTRAL MOSQUE</h5>
+    <p class="card-text">And seek help through patience and prayer, and indeed, it is difficult except for humbly submisive.</p>
+    <a href="" class="btn btn-primary">Locate Online</a>
+    <a href="" class="btn btn-primary">Locate Offline</a>>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="minpet" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+       <div class="card" style="width: auto; text-align: center;">
+  <img src="imgs/mineral_rsc.png"  class="responsive" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KADUNA POLYTECHNIC DEPARTMENT OF MINERAL AND PETROLEUM RESOURCES ENGINEERING</h5>
+    <p class="card-text">hhhhhhh</p>
+    <a href="https://www.google.com/maps/place/Department+of+mineral+and+petroleum+resources,+44+800282,+44+800282,+Kaduna/@10.522715,7.4092652,17z/data=!4m6!1m3!3m2!1s0x104d35b0d60ee825:0xb40bdf8d34d5f8cc!2sDepartment+of+mineral+and+petroleum+resources,+44+800282,+44+800282,+Kaduna!3m1!1s0x104d35b0d60ee825:0xb40bdf8d34d5f8cc" class="btn btn-primary">Locate Online</a>
+    <a href="offline/minrloff.html" class="btn btn-primary"> Locate Offline</a>
+	<a><button type="button"  data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+  <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></span> </button></a>
+  </div>
+</div> </div>
+    </div>
+</div>
+
+
+
+
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".dropdown-menu li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+				
+				</div>
+				
+				<style>
+  /* Style the input field */
+  #myInput {
+    padding: 20px;
+    margin-top: -6px;
+    border: 0;
+    border-radius: 0;
+    background: #f1f1f1;
+  }
+  .stay {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 50px;
+	margin-bottom:10px;
+	item-align:center;
+	height:20px;
+	border-radius:100%;
+	padding-top:10px;
+	font-size:20px;
+	}
+	h4{
+	color:white;
+	}
+	.responsive {
+  width: 100%;
+  height: auto;
+}
+  </style>
+
+
+				
+				<div class="window-text window-text-center">
+					<h4 style="text-align:center; color=white; background-color:green;"><strong>How it works</strong></h4>
+					<li>Search any Building, Department or Venue and click. </li>
+					<li>Use the Locate online to view your desired location on the google map. </li>
+					<li>Use the Locate Offline to find the route to your destination. </li>
+				</div>
+				
+			</div>
+			
+		</div>
+		<!-- //CLose Pops out to center -->
+
+		<div class="dropdown popout-center">
+				    <button class="window-button btn-primary dropdown-toggle" type="button" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+						<span class="icon-popout-center glyphicon glyphicon-menu-hamburger"></span>
+				    </button>
+				    <ul class="dropdown-menu popout-menu-center" role="menu" aria-labelledby="dropdownMenu1">
+						<li role="presentation" class="dropdown-link-center arrow-box-down"><a role="menuitem" tabindex="-1" href="news.html"><span class="glyphicon glyphicon-user"></span></a></li>
+						<li role="presentation" class="dropdown-link-center arrow-box-left"><a role="menuitem" tabindex="-1" href="home.html"><span class="glyphicon glyphicon-home"></span></a></li>
+						<li role="presentation" class="dropdown-link-center arrow-box-right"><a role="menuitem" tabindex="-1" href="elearn.html"><span class="glyphicon glyphicon-book"></span></a></li>
+						<li role="presentation" class="dropdown-link-center arrow-box-up"><a role="menuitem" tabindex="-1" href="utility.html"><span class="glyphicon glyphicon-"></span></a></li>
+				    </ul>
+				</div>
+		
+	</section>
+
+</main>
+<!-- partial -->
+ 
+
+</body>
+</html>
